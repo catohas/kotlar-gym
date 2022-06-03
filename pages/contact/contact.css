@@ -1,0 +1,19 @@
+@media only screen and (max-width: 790px) {
+    .map {
+        max-width: 40vh !important;
+    }
+}
+
+.map {
+    display: block;
+    margin: auto;
+    max-width: 60vh;
+    border: 1px solid orange;
+    padding-bottom: 0;
+    transition: 0.3s;
+}
+
+.map:hover {
+    border: 1px solid var(--kg-white);
+    transform: scale(1.2);
+}

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 620px) {
+    .food {
+        max-width: 30vh !important;
+    }
+}
+
+.food {
+    display: block;
+    margin: auto;
+    max-width: 50vh;
+    border: 1px solid orange;
+    padding-bottom: 0;
+    transition: 0.3s;
+}
+
+.food:hover {
+    border: 1px solid var(--kg-white);
+    transform: scale(1.2);
+}

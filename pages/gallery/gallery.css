@@ -1,0 +1,25 @@
+@media only screen and (max-width: 680px) {
+    .gallery {
+        grid-template-rows: repeat(2, 5vw);
+    }
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 15vw);
+    grid-gap: 15px;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid var(--kg-orange);
+    transition: 0.3s;
+}
+
+.gallery-img:hover {
+    border: 1px solid var(--kg-white);
+    transform: scale(1.2);
+}
