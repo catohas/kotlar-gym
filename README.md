@@ -1,2 +1,2 @@
-# kotlar-gym
-Kotlár Gym Ve Stylu
+# Kotlár Gym
+Posilování ve stylu
